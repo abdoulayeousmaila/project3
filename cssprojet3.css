@@ -1,0 +1,139 @@
+body{
+    margin: 0;
+    padding: 0;
+   
+}
+#header{
+    background: linear-gradient(to right, #004e99, #062961);
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+#img{
+
+    height: 100px ;
+    width: 300px;
+    
+}
+#logo{
+    height: 100px ;
+    width: 250px;
+}
+#nav-bar{
+    height: 100px ;
+    width: 500px;
+    padding-top: 10px;
+    line-height:80px;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.menu{
+
+    color: white;
+    font-size: 25px;
+    font-family:'Times New Roman', Times, serif;
+    text-decoration: none;
+    margin-right: 50px;opacity: 0.8;
+    transition: 0.2s;
+}
+.menu:hover{
+    opacity: 1; 
+}
+.title{
+    text-align: center;
+
+}
+h1{
+    font-size: 30px;
+    font-family: elephant;
+    opacity: 0.8;
+}
+#email{
+    height: 50px;
+    width: 500px;
+    border-radius: 5px;
+    border: 1px solid black;
+    font-size: 20px;
+    padding-left: 10px;
+}
+#submit{
+    height: 40px;
+    width: 200px;
+    border: none;
+    background:#004e99 ;
+    color: white;
+    transition: 0.2s;
+    border-radius: 5px;
+}
+#submit:hover{
+    background:#062961 ;
+}
+#submit1{
+    height: 35px;
+    width: 300px;
+    border: none;
+    background:#004e99 ;
+    color: white;
+    transition: 0.2s;
+    border-radius: 5px;
+}
+#submit1:hover{
+    background:#062961 ;
+}
+.infospre{
+    display: flex;
+    justify-content: space-around;
+}
+.infos{
+    height: auto;
+    width: auto;
+    text-align: center;
+    justify-items: center;
+}
+#vi{
+    margin: auto;
+    height: 100px;
+    width: 100px;
+}
+#vim{
+    height: 100px;
+    width: 100px;
+}
+.video{
+    margin-top: 70px;
+    margin-bottom: 50px;
+    justify-items: center;
+    text-align: center;
+    align-items: center;
+}
+.prix{
+    background: white;
+    height: 500px;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 20px;
+
+
+}
+.rubrique{
+    background:white;
+    height: 450px;
+    width: 350px;
+    margin: auto;
+    box-sizing: content-box;
+    border: solid 0.5px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+}
+.titre{
+    background: linear-gradient(to right, #004e99, #062961);
+    height: 80px;
+    width: 350px;
+    color: white;
+}
